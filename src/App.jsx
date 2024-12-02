@@ -6,12 +6,12 @@ import Destinations from './component/Destinations';
 
 const App = () => {
   return (
-    <div lang="id">
-    <Header />
+   <>
+   <Header />
     <Form />
     <Vehicles />
     <Destinations />
-</div>
+    </>
   )
 }
 
